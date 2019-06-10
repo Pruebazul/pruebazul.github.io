@@ -7,8 +7,6 @@ words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
-url: /
-root: /
 
 # Website info
 title: Ghost
@@ -17,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://jekyller.github.io/
-source_url: https://github.com/jekyller/
+production_url: https://jekyller.github.io/jasper2/
+source_url: https://github.com/jekyller/jasper2/
 CNAME: #add cname for website to be created
 
 # Social info
@@ -72,12 +70,12 @@ feed:
 safe: False
 lsi: False
 username: jekyller
-repo: pruebazul
+repo: jasper2
 branch: master
-relative_source: ../pruebazul/
+relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url:  https://pruebazul.github.io/
-source_url:  https://github.com/pruebazul/pruebazul.github.io/
+production_url:  https://jekyller.github.io/jasper2/
+source_url:  https://github.com/jekyller/jasper2/
 
 exclude:
   - assets/css
