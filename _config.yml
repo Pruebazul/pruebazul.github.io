@@ -71,7 +71,7 @@ safe: False
 lsi: False
 username: pruebazul
 repo: pruebazul.github.io
-branch: master
+branch: dev
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
 production_url:  https://jekyller.github.io/jasper2/
