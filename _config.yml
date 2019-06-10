@@ -7,7 +7,7 @@ words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 meinvento: https://pruebazul.github.io
-baseurl: 
+baseurl: /
 # Website info
 title: Ghost
 description: The professional publishing platform
