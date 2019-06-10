@@ -6,8 +6,9 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: https://pruebazul.github.io/jasper2/
-url: https://pruebazul.github.io/jasper2/
+baseurl: /
+url: /
+root: /
 
 # Website info
 title: Ghost
