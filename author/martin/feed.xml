@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="https://www.losazul.github.io/author/martin/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://www.losazul.github.io/" rel="alternate" type="text/html" />
-  <updated>2019-06-10T18:59:03+02:00</updated>
-  <id>https://www.losazul.github.io/author/martin/feed.xml</id>
+  <link href="/author/martin/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-06-10T19:10:10+02:00</updated>
+  <id>/author/martin/feed.xml</id>
 
   
   
