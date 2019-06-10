@@ -1,28 +1,231 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title> - Articles</title>
+    <description>The professional publishing platform</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    </link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>Top monitores baratos de 2018: las mejores pantallas gaming</title>
+        
+          <description>El top de monitores baratos de 2018 y con las mejores características. ¡La alta resolución, las pantallas UltraWide y las altas pulgadas a tu alcance!</description>
+        
+        <pubDate>Tue, 06 Nov 2018 23:01:55 +0100</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        /mejores-monitores-baratos-gaming-del-momento-2018</link>
+        <guid isPermaLink="true">/mejores-monitores-baratos-gaming-del-momento-2018</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>Top monitores baratos de 2018: las mejores pantallas gaming</title>
+        
+          <description>Nuestro recopilación de monitores gaming. La mejor pantalla pertenece al nuevo Alienware AW3418DW ... Se rumorea que fabricantes como Asus y Acer lanzarán próximamente nuevos modelos de 27&quot; con 4k, HDR y G-Sync.</description>
+        
+        <pubDate>Thu, 06 Sep 2018 00:01:55 +0200</pubDate>
+        <link>
+        /mejores-monitores-gaming-del-momento-2018</link>
+        <guid isPermaLink="true">/mejores-monitores-gaming-del-momento-2018</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Las ventajas gamer de Amazon Prime</title>
+        
+          <description>Nuestro análisis en el servicio líder en el mundo de ventas online, Amazon Prime. ¿Qué ventajas ofrece? ¿Merece realmente la pena? &lt;/br&gt;</description>
+        
+        <pubDate>Fri, 03 Aug 2018 00:01:55 +0200</pubDate>
+        <link>
+        /ventajas-de-amazon-prime-para-gamers-2018</link>
+        <guid isPermaLink="true">/ventajas-de-amazon-prime-para-gamers-2018</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Cyber Monday: mejores ofertas en juegos, consolas y periféricos gaming</title>
+        
+          <description>Las mejores ofertas en gaming del Cyber Monday: monitores, consolas, teclados, ratones, videojuegos... &amp;#161;No te pierdas ninguna ganga,  por tiempo limitado, acaban en menos de 24h!</description>
+        
+        <pubDate>Sun, 26 Nov 2017 23:55:55 +0100</pubDate>
+        <link>
+        /cyber-monday-mejores-ofertas-monitores-gaming-videojuegos-y-consolas</link>
+        <guid isPermaLink="true">/cyber-monday-mejores-ofertas-monitores-gaming-videojuegos-y-consolas</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Black Friday: Monitores, videojuegos y consolas con grandes ofertas en vivo</title>
+        
+          <description>Las mejores ofertas en gaming del Black Friday: Monitores, Consolas y Videojuegos. &amp;#161;No te pierdas ninguna ganga, vienen por tiempo limitado, acaban en menos de 24h!</description>
+        
+        <pubDate>Thu, 23 Nov 2017 23:55:55 +0100</pubDate>
+        <link>
+        /black-friday-mejores-ofertas-videojuegos-monitores-consolas-y-gaming</link>
+        <guid isPermaLink="true">/black-friday-mejores-ofertas-videojuegos-monitores-consolas-y-gaming</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ratón, Teclado y Cascos de los profesionales de League of Legends</title>
+        
+          <description>¿Quieres saber cuál es el teclado de Faker? ¿Prefieres el ratón de Bjergsen? ¿O tal vez los cascos de PerkZ? Hemos realizado una extensa investigación, y traemos por primera vez la recopilación definitiva de League of Legends.</description>
+        
+        <pubDate>Sat, 04 Nov 2017 20:55:55 +0100</pubDate>
+        <link>
+        /ratones-y-teclados-gaming-de-jugadores-profesionales-league-of-legends</link>
+        <guid isPermaLink="true">/ratones-y-teclados-gaming-de-jugadores-profesionales-league-of-legends</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>¿Cuánto dinero ganan los jugadores profesionales de eSports? ¿Y cómo?</title>
+        
+          <description>¿Sabes cúal es la friolera cantidad de dinero que ganan los jugadores profesionales de Sports? Todo esto se debe a  publicidad, streaming, salarios y ganancias.</description>
+        
+        <pubDate>Wed, 18 Oct 2017 23:00:00 +0200</pubDate>
+        <link>
+        /cuanto-dinero-ganan-los-jugadores-profesionales-y-como</link>
+        <guid isPermaLink="true">/cuanto-dinero-ganan-los-jugadores-profesionales-y-como</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>12 curiosidades sobre videojuegos</title>
+        
+          <description>Las 12 curiosidades sobre videojuegos que tienes que conocer.</description>
+        
+        <pubDate>Mon, 25 Sep 2017 14:00:00 +0200</pubDate>
+        <link>
+        /12-curiosidades-sobre-videojuegos</link>
+        <guid isPermaLink="true">/12-curiosidades-sobre-videojuegos</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>SNES Classic/Mini: fecha de salida, juegos, y todo lo que necesitas saber</title>
+        
+          <description>El lanzamiento de la SNES Classic se acerca a España. Aquí tienes todo lo que necesitas saber de la consola, sus juegos y lo que esperamos de ella.</description>
+        
+        <pubDate>Sat, 23 Sep 2017 23:00:00 +0200</pubDate>
+        <link>
+        /snes-classicmini-edition-fecha-de-salida-juegos</link>
+        <guid isPermaLink="true">/snes-classicmini-edition-fecha-de-salida-juegos</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Análisis MSI GT75VR Titan Pro en español</title>
+        
+          <description>Review completo del MSI GT75VR Titan Pro en español. Hemos estudiado todas sus componentes y realizado un exhaustivo análisis completo, y este es el resultado.</description>
+        
+        <pubDate>Fri, 22 Sep 2017 21:04:00 +0200</pubDate>
+        <link>
+        /analisis-completo-del-msi-gt75vr-titan-pro</link>
+        <guid isPermaLink="true">/analisis-completo-del-msi-gt75vr-titan-pro</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Mejores monitores baratos para gaming (2017)</title>
+        
+          <description>El top de monitores baratos con las mejores características. ¡La alta resolución, las pantallas UltraWide y las grandes pulgadas nunca fueron opciones tan económicas!</description>
+        
+        <pubDate>Fri, 22 Sep 2017 00:01:55 +0200</pubDate>
+        <link>
+        /mejores-monitores-para-gaming-baratos</link>
+        <guid isPermaLink="true">/mejores-monitores-para-gaming-baratos</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Review Dell S2417DG - 1440p con G-Sync</title>
+        
+          <description>Calificado como el mejor monitor calidad-precio. Este monitor Dell lo posee todo para los jugadores más competitivos. Realizamos un análisis detallado.</description>
+        
+        <pubDate>Wed, 13 Sep 2017 21:55:55 +0200</pubDate>
+        <link>
+        /rewiew-monitor-gaming-dell-S2417DG</link>
+        <guid isPermaLink="true">/rewiew-monitor-gaming-dell-S2417DG</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Monitores Ultrawide: lo que no sabías de la experiencia 21:9</title>
+        
+          <description>Desde sumergirte en tus mundos favoritos, hasta sacar ventaja en los juegos competitivos. ¡Te explicamos lo que no sabías de la experiencia 21:9!</description>
+        
+        <pubDate>Sat, 09 Sep 2017 21:55:55 +0200</pubDate>
+        <link>
+        /Monitores-Ultrawide-experiencia-21-9</link>
+        <guid isPermaLink="true">/Monitores-Ultrawide-experiencia-21-9</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Los mejores monitores gaming de 2017</title>
+        
+          <description>Los mejores monitores del momento clasificados por distintas necesidades gamer&amp;#58; resolución, alta tasa de refresco, colores vibrantes, y las tecnologías más modernas.</description>
+        
+        <pubDate>Wed, 06 Sep 2017 21:55:55 +0200</pubDate>
+        <link>
+        /mejores-monitores-gaming</link>
+        <guid isPermaLink="true">/mejores-monitores-gaming</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>La configuración óptima para tu monitor</title>
+        
+          <description>Sigue estos pasos para sacar el máximo rendimiento a tu pantalla. Si quieres optimizar tu monitor, debes realizar una serie de simples configuraciones.</description>
+        
+        <pubDate>Sun, 03 Sep 2017 21:55:55 +0200</pubDate>
+        <link>
+        /como-configurar-y-calibrar-tu-monitor</link>
+        <guid isPermaLink="true">/como-configurar-y-calibrar-tu-monitor</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Cómo limpiar correctamente una pantalla de monitor o televisión</title>
+        
+          <description>Nueve de cada diez usuarios limpian mal su pantalla. En este artículo te enseñamos las herramientas y el procedimiento adecuado para su correcta limpieza.</description>
+        
+        <pubDate>Tue, 29 Aug 2017 21:55:55 +0200</pubDate>
+        <link>
+        /como-limpiar-correctamente-una-pantalla-de-monitor-o-television</link>
+        <guid isPermaLink="true">/como-limpiar-correctamente-una-pantalla-de-monitor-o-television</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>La guía para comprar un monitor en 2018</title>
+        
+          <description>Hay una inmensa oferta de monitores. Te explicamos los conocimientos clave para que seas capaz de elegir por ti mismo el monitor que se ajuste a tus necesidades.</description>
+        
+        <pubDate>Thu, 24 Aug 2017 21:55:55 +0200</pubDate>
+        <link>
+        /guia-para-elegir-que-monitor-comprar-en-2017</link>
+        <guid isPermaLink="true">/guia-para-elegir-que-monitor-comprar-en-2017</guid>
+      </item>
+      
+    
   </channel>
 </rss>
